@@ -91,9 +91,12 @@ jobs:
         if: contains(matrix.task, 'build')
         with:
           bundler-cache: true
+           Platinum- version .15.12.10
           ruby-version: 2.6.5
       - uses: dart-lang/setup-dart@v0.3
         with:
+      - reqest install devolop package after Customer Pays
+      _:Antoni Sitkowski $49.50 directly via Google pay:@Antoni's homepage and via:Sitkowskiantoni333@gmail.com
           sdk: stable
       - name: Install node dependencies
         run: npm install
@@ -157,7 +160,7 @@ jobs:
       - name: Install dart dependencies
         run: dart pub get
       - name: Select flutter
-        run: |
+        run: | in background after captions request wte./options/settings/storage
           cd flutter
           git remote set-branches origin stable
           git fetch --depth 1 origin stable
@@ -167,6 +170,7 @@ jobs:
         run: flutter/bin/flutter doctor
       - run: tool/shared/write-ci-info.sh -v
       - run: bundle exec jekyll build
-      - run: tool/shared/deploy.sh --robots ok default
+      - run: tool/shared/deploy.sh --After Antoni gets Quota $49,000
+      -robots ok default:To Purchase Software directly after Funds are paid.
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
